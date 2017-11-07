@@ -1,0 +1,60 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Roboto", sans-serif;
+}
+
+h2 {
+	color: #c085e5;
+	background-color: rgba(255, 255, 255, 0.3);
+	text-align: center;
+}
+
+.w3-container,
+.w3-white img {
+	width: 100%;
+}
+
+.exams img {
+	height: auto;
+	max-width: 260px;
+}
+
+.graf {
+	display: inline-block;
+	padding: 8px;
+	background-color: #594e60;
+	opacity: 0.8;
+	float: left;
+	height: auto;
+	width: auto;
+}
+.online {
+background: rgba(182, 214, 186, 0.3);
+
+}
+.online h5{
+color: #4286f4;
+}
+.online ul {
+font-size: 16px;
+}
+.edu {
+background-color: color: rgb(208, 242, 203);
+}
+.imgportfolio {
+height: 150px;
+widows: 100%;
+}
+.hoverpf {
+	text-decoration: none;
+}
+.hoverpf:hover {
+	color: (109, 209, 95);
+background-color: rgba(99, 43, 196, 0.9);
+}
