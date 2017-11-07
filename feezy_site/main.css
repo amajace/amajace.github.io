@@ -2,20 +2,31 @@
 	font-family: 'PT Sans', sans-serif;
 	font-size: 17px;
 }
+
 .contain {
-width: 1024px;
-margin: 0 auto;
+	width: 1024px;
+	margin: 0 auto;
 }
+
 .navbar {
-	margin-bottom: 50px;
 	border-radius: 0;
 }
 
 .jumbotron {
 	background: url(img/bg.jpg);
-background-repeat: no-repeat;
-background-position: top;
-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 330px;
+}
+
+.navbar-header {
+	margin: 0 auto;
+}
+
+.container {
 	margin: 0;
 	padding: 0;
 }
@@ -34,9 +45,11 @@ footer {
 	max-width: 330px;
 
 }
+
 .panel-body img:last-child {
-padding-bottom: 60px;
+	padding-bottom: 60px;
 }
+
 .panel-heading {
 	position: relative;
 }
@@ -82,11 +95,10 @@ padding-bottom: 60px;
 #prod {
 	text-align: center;
 	font-size: 40px;
-	color: blue;
-	border: 3px solid purple;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background: aqua;
+	color: purple;
+	text-decoration: underline;
 }
 
 .btn h2 {
@@ -101,6 +113,13 @@ padding-bottom: 60px;
 	color: rgba(0, 0, 0, 0.6);
 	text-decoration: underline;
 }
+
 .item {
-margin: 0 auto;
+	margin: 0 auto;
+}
+
+#myNavbar {
+	height: 100px;
+	padding: 0;
+	margin: 0;
 }
