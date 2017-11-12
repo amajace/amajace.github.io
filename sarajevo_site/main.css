@@ -23,31 +23,43 @@ header {
 	height: 48px;
 }
 
-li:hover {
-	background: rgba(255, 255, 255, 0.5);
-}
 
 #logo {
 	text-decoration: none;
 	color: #fff;
 	float: left;
-	padding-top: 12px;
+	margin-top: 12px;
 	font-size: 25px;
+}
+
+#logo:hover {
+	color: #FF0000;
+	background: #EDA595;
+	border-radius: 10px;
+	box-sizing: border-box;
+	text-decoration: overline;
 }
 
 .navig {
 	float: right;
-	display: flex;
+
 }
 
 .menu_li {
 	list-style: none;
+	float: right;
 }
 
 .menu_a {
 	text-decoration: none;
 	color: #fff;
 	margin-left: 32px;
+}
+
+.sh:hover {
+	background: #EDA595;
+	border-radius: 10%;
+	text-decoration: overline;
 }
 
 header h1 {
@@ -188,6 +200,10 @@ header h4 {
 	font-weight: bold;
 }
 
+.menu_h {
+	display: none;
+}
+
 .every {
 	width: 230px;
 	float: left;
@@ -215,14 +231,13 @@ header h4 {
 	height: 450px;
 }
 
-footer {
-	height: 250px;
-	background: #069688;
-}
-
 .sarajevo {
 	width: 240px;
-float: right;
+	float: right;
+}
+
+.menu_a:hover {
+	color: #FF0000;
 }
 
 .sarajevo a {
@@ -237,10 +252,22 @@ float: right;
 	text-shadow: 2px 5px 2px white;
 	line-height: 1.35em;
 }
+
 .navigat {
 	float: left;
-display: flex;
+	display: flex;
 }
+
 .copy {
-float: left;
+	float: left;
+}
+
+@media screen and (max-width: 560px) {
+	.navig {
+		float: none;
+	}
+	.menu_h {
+		display: block;
+		cursor: pointer;
+	}
 }
